@@ -3,7 +3,6 @@ import { CommonModule } from '@angular/common';
 import { HeadrComponent } from './components/headr/headr.component';
 
 
-
 @NgModule({
   declarations: [
     HeadrComponent
