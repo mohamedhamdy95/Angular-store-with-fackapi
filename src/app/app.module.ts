@@ -7,6 +7,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import { CarouselModule } from 'ngx-owl-carousel-o';
 import { SharedModule } from './shared/shared.module';
+import { CommonModule } from '@angular/common';
 
 
 @NgModule({
@@ -21,7 +22,8 @@ import { SharedModule } from './shared/shared.module';
     BrowserAnimationsModule,
     CarouselModule,
     FormsModule,
-    SharedModule
+    SharedModule,
+    CommonModule
   ],
   providers: [],
   bootstrap: [AppComponent]
